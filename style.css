@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+
+body {
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+.pizza {
+    width: 130px;
+}
+.name {
+    font-size: 40px;
+    font-family: "BBH Hegarty", sans-serif;
+    color: #f5700a;
+}
+
+main{
+    display: flex;
+    gap: 5px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.p1 {
+    width: 210px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-left: 30px;
+    font-family: "Roboto Mono", monospace;
+    opacity: 0.8
+}
+
+.pizza1 {
+    width: 120px;
+    border-radius: 10px;
+    opacity: 1
+}
+.p1 h2 {
+    color: #8b0000;
+}
+
+.Buy {
+    background-color: #7d0e13;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.Buy:hover {
+    background-color: #12e307;
+}
+.p2 {
+    width: 220px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #d4a373;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    font-family: "Roboto Mono", monospace;
+    opacity: 0.8
+}
+
+.p2 button {
+    background: linear-gradient(#c94b4b, #8b0000);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+.p2 h2 {
+    color: #8b0000;
+}
+
+.p2 img {
+    width: 150px;
+}
+
+.p3 {
+    width: 210px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #d4a373;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    font-family: "Roboto Mono", monospace;
+    opacity: 0.8
+}
+
+.p3 img {
+    width: 140px;
+}
+
+.p3 h2 {
+    color: #8b0000;
+}
+
+.p3 button {
+    background: linear-gradient(#c94b4b, #8b0000);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+h2 {
+    text-align: center;
+}
